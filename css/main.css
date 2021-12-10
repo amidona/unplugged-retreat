@@ -330,6 +330,11 @@ input[type=button] {
     flex-flow: row wrap;
 }
 
+.features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
+}
+
 .features article {
     width: 55%;
     margin: 20px 0;
@@ -650,6 +655,10 @@ input[type=button] {
         align-items: center;
         flex-flow: column wrap;
         flex-basis: 50%;  
+    }
+
+    .features i {
+        font-size: 4.5em;
     }
 
     .features .features-item-description {
