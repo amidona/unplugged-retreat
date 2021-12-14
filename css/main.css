@@ -94,6 +94,7 @@ html {
 }
 
 body {
+    background-color: #202322;
     color: #e2e3ed;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
@@ -273,7 +274,7 @@ footer .copyright {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    padding-bottom: 330px;
+    padding-bottom: 280px;
 }
 
 .hero h1 {
@@ -640,6 +641,10 @@ input[type=button] {
     }
 
     /*Homepage Styles*/
+    .hero div {
+        padding-bottom: 365px;
+    }
+    
     .hero h1 {
         font-size: 3em;
         line-height: 48px;
@@ -797,6 +802,8 @@ input[type=button] {
     .hero .content-wrapper {
         justify-content: flex-start;
         margin-top: 40px;
+        padding-bottom: 23%;
+        max-height: 600px;
     }
 
     .hero h1 {
